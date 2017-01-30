@@ -19,7 +19,7 @@
    
 </head>
 
-<body id="app-layout" background="http://www.zingerbugimages.com/backgrounds/indigo_textured_rock_seamless_pattern.jpg">
+<body id="app-layout" background="http://cdn26.us1.fansshare.com/photo/wallpaperbackground/wood-background-wallpaper-background-images-check-free-music-image-css-pictures-twitter-html-powerpoint-493583520.jpg">
     <nav class="navbar navbar-default navbar-static-top">
         <div class="container">
             <div class="navbar-header">
