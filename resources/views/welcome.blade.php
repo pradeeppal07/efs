@@ -60,9 +60,9 @@
                 </button>
 
                <!-- Branding Image class="navbar-brand"  -->
-                <h4><a href="{{ url('/customers') }}">
+                <B><h2><a href="{{ url('/customers') }}">
                     Eagle Financial Services
-                </a></h4>
+                </a></h2></B>
                 <br>
                 
                     <h5> We care your funds !</h5>   
@@ -76,7 +76,7 @@
     </nav>
         <div class="container">
             <div class="content">
-                <div class="title">Eagle Financial Services</div>
+              <B>  <div class="title">Eagle Financial Services</div></B>
 				<h1><a href="{{ action('CustomerController@index') }}">Click here to proceed</a></h1>
                  
             </div>
