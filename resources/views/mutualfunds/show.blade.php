@@ -11,11 +11,11 @@
             </tr>
             <tr>
                 <td>Purchase Date</td>
-                <td><?php echo ($mutualfunds['start_date']); ?></td>
+                <td><?php echo ($mutualfunds['purchase_date']); ?></td>
             </tr>
             <tr>
                 <td>Purchase Price</td>
-                <td><?php echo ($mutualfunds['buy_price']); ?></td>
+                <td><?php echo ($mutualfunds['purchase_price']); ?></td>
             </tr>
             <tr>
                 <td>Current Price</td>
