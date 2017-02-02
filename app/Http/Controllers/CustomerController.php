@@ -75,5 +75,11 @@ class CustomerController extends Controller
         $customer = $customer->toArray();
         return response()->json($customer);
     }
-
+   
+    public function show($id)
+{
+    $customer = Customer::findOrFail($id);
+    $stocks = Stock::all(); 
+    return view('customers.show',compact('customer', 'stocks'));
+}
 }
