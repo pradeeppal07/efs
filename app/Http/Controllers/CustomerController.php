@@ -1,12 +1,12 @@
 <?php
 
 namespace App\Http\Controllers;
-namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
 use App\Customer;
+use App\Stocks;
 
 class CustomerController extends Controller
 {
