@@ -44,7 +44,7 @@
       </table>
     </div>
  <h1>Stock</h1>
-    <
+    
     <table class="table table-striped table-bordered table-hover">
         <thead>
         <tr class="bg-info">
