@@ -44,7 +44,7 @@
             }
         </style>
     </head>
-    <body background="http://cdn26.us1.fansshare.com/photo/wallpaperbackground/wood-background-wallpaper-background-images-check-free-music-image-css-pictures-twitter-html-powerpoint-493583520.jpg">
+    <body background="http://www.publicdomainpictures.net/view-image.php?image=121336&picture=sky-blue-textured-background#.WJO4XKKwr6w.link">
 
 
     <nav class="navbar navbar-default navbar-static-top">
