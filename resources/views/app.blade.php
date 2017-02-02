@@ -19,7 +19,7 @@
    
 </head>
 
-<body id="app-layout" background="http://cdn26.us1.fansshare.com/photo/wallpaperbackground/wood-background-wallpaper-background-images-check-free-music-image-css-pictures-twitter-html-powerpoint-493583520.jpg">
+<body id="app-layout" background="https://in.pinterest.com/pin/10203536633740110/">
     <nav class="navbar navbar-default navbar-static-top">
         <div class="container">
             <div class="navbar-header">
