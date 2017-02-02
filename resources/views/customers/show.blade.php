@@ -49,14 +49,13 @@
     <table class="table table-striped table-bordered table-hover">
         <thead>
         <tr class="bg-info">
-            <th>Cust No</th>
-            <th>Cust Name</th>
+            
             <th>Symbol</th>
             <th>Name</th>
             <th>Shares</th>
             <th>Purchase price</th>
             <th>Purchase Date</th>
-            <th colspan="3">Actions</th>
+           
         </tr>
         </thead>
         <tbody>
