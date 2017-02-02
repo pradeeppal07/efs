@@ -62,20 +62,13 @@
         <tbody>
         @foreach ($stocks as $stock)
             <tr>
-                <td>{{ $stock->customer->cust_number }}</td>
-                <td>{{ $stock->customer->name }}</td>
+             
                 <td>{{ $stock->symbol }}</td>
                 <td>{{ $stock->name }}</td>
                 <td>{{ $stock->shares }}</td>
                 <td>{{ $stock->purchase_price }}</td>
                 <td>{{ $stock->purchased }}</td>
-                <td><a href="{{url('stocks',$stock->id)}}" class="btn btn-primary">Read</a></td>
-                <td><a href="{{route('stocks.edit',$stock->id)}}" class="btn btn-warning">Update</a></td>
-                <td>
-                    {!! Form::open(['method' => 'DELETE', 'route'=>['stocks.destroy', $stock->id]]) !!}
-                    {!! Form::submit('Delete', ['class' => 'btn btn-danger']) !!}
-                    {!! Form::close() !!}
-                </td>
+                
             </tr>
         @endforeach
 
