@@ -114,7 +114,7 @@
         </tbody>
 
     </table>
-	<?php $a = 0; $b = 0; ?>
+	<?php $a = 0; $b = 0; $c =0; ?>
 	@foreach($investments as $investment)
 	@if($investment->customer_id == $customer->id)
 
@@ -124,6 +124,10 @@
    @endforeach
    <h4>Total of Intial Investment portfolio <?php echo $a ?></h4>
    <h4>Total of Current Investment portfolio <?php echo $b ?></h4>
+   
+   <h3>Summary_portfolio</h3>
+   <h4>Total of Intial portfolio value <?php echo $a+$b ?></h4>
+   <h4>Total of Intial Current portfolio <?php echo $a+$c ?></h4>
    
 @stop
 
