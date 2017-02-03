@@ -48,7 +48,7 @@
     <table class="table table-striped table-bordered table-hover">
         <thead>
         <tr class="bg-info">
-            
+            <th>Cust Number</th>
             <th>Symbol</th>
             <th>Name</th>
             <th>Shares</th>
@@ -60,7 +60,7 @@
         <tbody>
         @foreach ($stocks as $stock)
             <tr>
-             
+                <td>{{ $stock->customer->cust_number }}</td>
                 <td>{{ $stock->symbol }}</td>
                 <td>{{ $stock->name }}</td>
                 <td>{{ $stock->shares }}</td>
