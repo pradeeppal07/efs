@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Customer;
 use App\Stock;
+use App\Investment;
 
 class CustomerController extends Controller
 {
