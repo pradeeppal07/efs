@@ -53,6 +53,7 @@
         <th>Shares</th>
         <th>Purchase price</th>
         <th>Purchase Date</th>
+		<th>Orignal_value</th>
     </tr>
     </thead>
     <tbody>
@@ -64,6 +65,7 @@
             <td>{{ $stock->shares }}</td>
             <td>{{ $stock->purchase_price }}</td>
             <td>{{ $stock->purchased }}</td>
+			
         </tr>
         @endif
     @endforeach
