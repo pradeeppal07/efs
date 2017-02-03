@@ -71,6 +71,14 @@
     </tbody>
 
 </table>
+<?php $a = 0; ?>
+@foreach($stocks as $stock)
+   @if ($stocks->customer_id ==$customer->id)
+	   <?php $a = $a+$stock->purchase_price;?>
+   @endif
+   @endforeach
+   <h4>Total of intial Stock portfolio <?php echo $a ?></h4>
+   
 <h1>Investment</h1>
 	
     <hr>
@@ -104,6 +112,17 @@
         </tbody>
 
     </table>
+	<?php $a = 0; $b = 0; ?>
+	@foreach($investments as $investment)
+	@if($investments->customer_id == $customer->id)
+
+	   <?php $a = $a+$investment->acquired_valve;
+	   $b = $b+investment->recent_valve;?>
+   @endif
+   @endforeach
+   <h4>Total of Intial Investment portfolio <?php echo $a ?></h4>
+   <h4>Total of Current Investment portfolio <?php echo $b ?></h4>
+   
 @stop
 
 
