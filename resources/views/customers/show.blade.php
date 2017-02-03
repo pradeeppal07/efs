@@ -59,6 +59,7 @@
         </thead>
         <tbody>
         @foreach ($stocks as $stock)
+		@if ($stock->customer_id == $customer->id)
             <tr>
                 <td>{{ $stock->customer->cust_number }}</td>
                 <td>{{ $stock->symbol }}</td>

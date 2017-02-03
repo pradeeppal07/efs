@@ -20,7 +20,7 @@ class CustomerController extends Controller
     public function show($id)
     {
         $customer = Customer::findOrFail($id);
-		 $stocks = Stock::where('customer_id','=','$id')->get();
+		 $stocks = Stock::all();
         return view('customers.show',compact('customer','stocks'));
     }
 
