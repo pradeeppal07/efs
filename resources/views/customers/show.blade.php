@@ -71,6 +71,39 @@
     </tbody>
 
 </table>
+<h1>Investment</h1>
+	
+    <hr>
+    <table class="table table-striped table-bordered table-hover">
+        <thead>
+        <tr class="bg-info">
+    
+            <th>Description</th>
+            <th>Acquired Value</th>
+            <th>Acquired Date</th>
+            <th>Recent Value</th>
+            <th>Recent Date</th>
+        
+        </tr>
+        </thead>
+        <tbody>
+        @foreach ($investments as $investment)
+		 @if ($investment->customer_id == $customer->id)
+            <tr>
+             
+                <td>{{ $investment->description }}</td>
+                <td>{{ $investment->acquired_value }}</td>
+                <td>{{ $investment->acquired_date }}</td>
+                <td>{{ $investment->recent_value }}</td>
+                <td>{{ $investment->recent_date }}</td>
+                
+            </tr>
+			@endif
+        @endforeach
+
+        </tbody>
+
+    </table>
 @stop
 
 
