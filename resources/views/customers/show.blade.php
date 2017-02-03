@@ -73,8 +73,8 @@
 </table>
 <?php $a = 0; ?>
 @foreach($stocks as $stock)
-   @if ($stocks->customer_id ==$customer->id)
-	   <?php $a = $a+$stock->purchase_price;?>
+   @if ($stock->customer_id ==$customer->id)
+	   <?php $a = $a+($stock->purchase_price* stock->shares);?>
    @endif
    @endforeach
    <h4>Total of intial Stock portfolio <?php echo $a ?></h4>
@@ -114,7 +114,7 @@
     </table>
 	<?php $a = 0; $b = 0; ?>
 	@foreach($investments as $investment)
-	@if($investments->customer_id == $customer->id)
+	@if($investment->customer_id == $customer->id)
 
 	   <?php $a = $a+$investment->acquired_valve;
 	   $b = $b+investment->recent_valve;?>
