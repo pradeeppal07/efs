@@ -21,7 +21,8 @@ class CustomerController extends Controller
     {
         $customer = Customer::findOrFail($id);
 		 $stocks = Stock::all();
-        return view('customers.show',compact('customer','stocks'));
+		 $investments = Investment::all();
+        return view('customers.show',compact('customer','stocks',i'investments'));
     }
 
 
