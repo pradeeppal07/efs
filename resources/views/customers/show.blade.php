@@ -114,10 +114,10 @@
     </table>
 	<?php $a = 0; $b = 0; ?>
 	@foreach($investments as $investment)
-	@if($investment->customer_id == $customer->id)
+	@if($investment -> customer_id == $customer->id)
 
-	   <?php $a = $a+$investment->acquired_valve;
-	   $b = $b+investment->recent_valve;?>
+	   <?php $a = $a+$investment->acquired_value;
+	   $b = $b+investment->recent_value;?>
    @endif
    @endforeach
    <h4>Total of Intial Investment portfolio <?php echo $a ?></h4>
