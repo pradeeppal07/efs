@@ -65,7 +65,7 @@
             <td>{{ $stock->shares }}</td>
             <td>{{ $stock->purchase_price }}</td>
             <td>{{ $stock->purchased }}</td>
-			
+			<td>{{$stock->purchase_price*$stock->shares}}</td>
         </tr>
         @endif
     @endforeach
