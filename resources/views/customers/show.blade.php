@@ -114,7 +114,7 @@
     </table>
 	<?php $a = 0; $b = 0; ?>
 	@foreach($investments as $investment)
-	@if($investment -> customer_id == $customer->id)
+	@if($investment->customer_id == $customer->id)
 
 	   <?php $a = $a+$investment->acquired_value;
 	   $b = $b+investment->recent_value;?>
