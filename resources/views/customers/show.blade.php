@@ -44,36 +44,33 @@
       </table>
     </div>
  <h1>Stock</h1>
-    
-    <table class="table table-striped table-bordered table-hover">
-        <thead>
-        <tr class="bg-info">
-            <th>Cust Number</th>
-            <th>Symbol</th>
-            <th>Name</th>
-            <th>Shares</th>
-            <th>Purchase price</th>
-            <th>Purchase Date</th>
-           
+<hr>
+<table class="table table-striped table-bordered table-hover">
+    <thead>
+    <tr class="bg-info">
+        <th>Symbol</th>
+        <th>Name</th>
+        <th>Shares</th>
+        <th>Purchase price</th>
+        <th>Purchase Date</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach ($stocks as $stock)
+        @if ($stock->customer_id == $customer->id)
+        <tr>
+            <td>{{ $stock->name }}</td>
+            <td>{{ $stock->symbol }}</td>
+            <td>{{ $stock->shares }}</td>
+            <td>{{ $stock->purchase_price }}</td>
+            <td>{{ $stock->purchased }}</td>
         </tr>
-        </thead>
-        <tbody>
-        @foreach ($stocks as $stock)
-		@if ($stock->customer_id == $customer->id)
-            <tr>
-                <td>{{ $stock->customer->cust_number }}</td>
-                <td>{{ $stock->symbol }}</td>
-                <td>{{ $stock->name }}</td>
-                <td>{{ $stock->shares }}</td>
-                <td>{{ $stock->purchase_price }}</td>
-                <td>{{ $stock->purchased }}</td>
-                
-            </tr>
-        @endforeach
+        @endif
+    @endforeach
 
-        </tbody>
+    </tbody>
 
-    </table>
+</table>
 @stop
 
 
