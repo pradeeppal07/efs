@@ -125,7 +125,7 @@
    <h4>Total of Intial Investment portfolio <?php echo $b ?></h4>
    <h4>Total of Current Investment portfolio <?php echo $c ?></h4>
    
-   <h3>Summary_portfolio</h3>
+   <h3>Summary portfolio</h3>
    <h4>Total of Intial portfolio value <?php echo $a+$b ?></h4>
    <h4>Total of Intial Current portfolio <?php echo $a+$c ?></h4>
    
