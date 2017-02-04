@@ -114,7 +114,7 @@
         </tbody>
 
     </table>
-	<?php $a = 0; $b = 0; $c =0; ?>
+	<?php $b = 0; $c =0; ?>
 	@foreach($investments as $investment)
 	@if($investment->customer_id == $customer->id)
 
