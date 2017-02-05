@@ -44,7 +44,7 @@
             }
         </style>
     </head>
-    <body background="http://www.visitflorida.com/content/dam/visitflorida/en-us/images/BackgroundImages/VIsitFlorida/Gatewayhero/xDestin_1600_1200.jpg.pagespeed.ic.BWyH0Y_4wy.jpg">
+    <body background="https://commons.wikimedia.org/wiki/File:Taj_Mahal_in_India.jpg">
 
 
     <nav class="navbar navbar-default navbar-static-top">
