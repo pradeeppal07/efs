@@ -44,7 +44,7 @@
             }
         </style>
     </head>
-    <body background="https://commons.wikimedia.org/wiki/File:Taj_Mahal_in_India.jpg">
+    <body background="http://www.globalcarbonproject.org/methanebudget/16/files/21671369_sky_1000w.jpg">
 
 
     <nav class="navbar navbar-default navbar-static-top">
