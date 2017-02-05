@@ -44,7 +44,7 @@
             }
         </style>
     </head>
-    <body background="http://www.publicdomainpictures.net/view-image.php?image=121336&picture=sky-blue-textured-background#.WJO4XKKwr6w.link">
+    <body background="http://www.visitflorida.com/content/dam/visitflorida/en-us/images/BackgroundImages/VIsitFlorida/Gatewayhero/xDestin_1600_1200.jpg.pagespeed.ic.BWyH0Y_4wy.jpg">
 
 
     <nav class="navbar navbar-default navbar-static-top">
