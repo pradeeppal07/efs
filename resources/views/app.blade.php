@@ -19,7 +19,7 @@
    
 </head>
 
-<body id="app-layout" background="https://t3.ftcdn.net/jpg/00/92/18/42/240_F_92184249_fRkPnwHeOaFr7jxHfLHpPNvGYIj3RRsw.jpg">
+<body id="app-layout" background="">
     <nav class="navbar navbar-default navbar-static-top">
         <div class="container">
             <div class="navbar-header">
