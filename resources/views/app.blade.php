@@ -19,7 +19,7 @@
    
 </head>
 
-<body id="app-layout" background="https://in.pinterest.com/pin/10203536633740110/">
+<body id="app-layout" background="https://pbs.twimg.com/media/C1Uo8BeXcAAUt4z.jpg:large">
     <nav class="navbar navbar-default navbar-static-top">
         <div class="container">
             <div class="navbar-header">
