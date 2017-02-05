@@ -36,8 +36,7 @@
                     Eagle Financial Services-Home Page
                 </a></h4>
 				<br>
-				
-					<h5> We care your funds !</h5>	
+				     <h5> We care your funds !</h5>	
 				
             </div>
 
