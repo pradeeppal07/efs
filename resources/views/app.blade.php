@@ -19,7 +19,7 @@
    
 </head>
 
-<body id="app-layout" background="http://www.wallcoo.net/nature/Sz_216_Okinawa_Japan_Sky_and_Sea_1920x1200/wallpapers/1280x800/Wallcoo_com_Japan_Okinawa_sky_beach_Okinawa_JY128_350A.jpg">
+<body id="app-layout" background=" ">
     <nav class="navbar navbar-default navbar-static-top">
         <div class="container">
             <div class="navbar-header">
